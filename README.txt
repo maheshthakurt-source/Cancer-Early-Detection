@@ -15,8 +15,8 @@ What Is In This Repository
 ---------------------------
 
 README.txt                            -- this file
-Cancer_Early_Detection.ipynb            -- the main notebook with all the analysis
-Cancer_Early_Detection.html             -- the notebook already run, open in any browser
+Cancer_Early_detection_Final.ipynb            -- the main notebook with all the analysis
+Cancer_Early_detection_Final.html             -- the notebook already run, open in any browser
 data/
     breast-cancer.csv                 -- Wisconsin Breast Cancer Dataset
     prostate_cancer_prediction.csv    -- Prostate Cancer Prediction Dataset
@@ -50,13 +50,13 @@ You will need Python 3.8 or above. Install the required libraries with:
 
 Then launch Jupyter:
 
-    jupyter notebook Cancer_Early_Detection.ipynb
+    jupyter notebook Cancer_Early_detection_Final.ipynb
 
 Run all cells from top to bottom. The notebook loads the CSV files from the data/ folder so make sure those are in place first.
 
 Fair warning: the 1024-run experiments take a while. On a normal laptop you are probably looking at somewhere between 20 and 40 minutes total, mostly because of the prostate cancer dataset which has nearly 28,000 rows. I put a subsample cap on the bootstrap section for prostate cancer to keep it reasonable.
 
-If you just want to see what the results look like, open Cancer_Early_Detection.html in Chrome or Firefox and everything is already there.
+If you just want to see what the results look like, open Cancer_Early_detection_Final.html in Chrome or Firefox and everything is already there.
 
 
 Required Libraries
@@ -165,10 +165,4 @@ Yasserh (2022). Kaggle. https://www.kaggle.com/datasets/yasserh/breast-cancer-da
 Prostate Cancer Prediction Dataset:
 Ankushpanday1 (2025). Kaggle. https://www.kaggle.com/datasets/ankushpanday1/prostate-cancer-prediction-dataset
 
-
-Author
-------
-
-Maheshwar Singh Thakur
-MSc Dissertation Project, 2025
 
